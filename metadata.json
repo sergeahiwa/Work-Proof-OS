@@ -1,0 +1,12 @@
+{
+  "name": "Work Proof OS",
+  "description": "Votre journal de bord professionnel. Enregistrez vos missions, prouvez vos actions et valorisez vos succès réels sur le terrain.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
