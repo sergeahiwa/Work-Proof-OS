@@ -1,0 +1,4 @@
+export const SCORING_CONFIG = {
+  PRECISION_THRESHOLD: 0.01,
+  INCREMENTAL_ENABLED: true
+};
