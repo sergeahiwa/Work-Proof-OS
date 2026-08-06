@@ -47,7 +47,7 @@ export default function KairosHandshakePanel({ handshakes }: KairosHandshakePane
         <div className="card p-4 bg-surface-section border border-surface-border">
           <div className="flex items-center gap-2 mb-2">
             <Clock size={14} className="text-info" />
-            <span className="text-[10px] font-black uppercase tracking-widest text-text-muted">Latence Moyenne</span>
+            <span className="text-[10px] font-black uppercase tracking-widest text-text-muted">Temps de Validation Moyen</span>
           </div>
           <div className="text-2xl font-headline font-black text-info">{stats.avgLatency.toFixed(1)}ms</div>
         </div>
@@ -65,7 +65,7 @@ export default function KairosHandshakePanel({ handshakes }: KairosHandshakePane
         <div className="p-4 bg-surface-section border-b-2 border-surface-border flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Server size={18} className="text-primary" />
-            <h3 className="text-sm font-black uppercase tracking-widest">Flux KAIROS Handshake</h3>
+            <h3 className="text-sm font-black uppercase tracking-widest">Flux de Synchronisation de Preuves</h3>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-success animate-pulse" />

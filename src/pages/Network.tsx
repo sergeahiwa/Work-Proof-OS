@@ -85,10 +85,10 @@ export default function Network() {
             <span>VALIDATION GRAPH & NETWORK OS v1.5</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold font-display tracking-tight text-slate-100">
-            Graph de Validation Professionnelle
+            Réseau de Confiance Professionnel
           </h1>
           <p className="text-slate-400 mt-1.5 text-sm md:text-base max-w-2xl">
-            Réseau de paires certifié et ancré par consensus. Pas de bruit social, uniquement des attestations croisées et des preuves d'impact partagées.
+            Graph de validation certifié par vos pairs et partenaires. Pas de bruit social, uniquement des attestations croisées et des preuves d'impact partagées.
           </p>
         </div>
 
@@ -155,7 +155,7 @@ export default function Network() {
             <Filter size={14} /> Filtrer
           </button>
           <button className="flex-1 md:flex-none bg-blue-600 hover:bg-blue-500 text-white px-4 py-3 font-bold uppercase transition-all rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-blue-500/20">
-            <UserPlus size={14} /> Inviter Pair
+            <UserPlus size={14} /> Inviter un Pair Certificateur
           </button>
         </div>
       </section>
@@ -229,7 +229,7 @@ export default function Network() {
                           ) : (
                             <ShieldCheck size={14} />
                           )}
-                          <span>{isBoosted ? 'Sceau Émis' : 'Attester Preuve'}</span>
+                          <span>{isBoosted ? 'Sceau Émis' : 'Attester cette Réalisation'}</span>
                         </button>
                         <button className="p-2 bg-[#1B2438] text-slate-400 hover:text-slate-200 hover:bg-slate-700 transition-colors rounded-lg border border-[#1E293B]">
                           <MessageSquare size={14} />

@@ -213,8 +213,8 @@ export const opportunitiesCopy = {
 
 export const profileCopy = {
   sections: {
-    achievements: "Journal des preuves",
-    impactAnalysis: "Analyse d'impact",
+    achievements: "Preuves certifiées",
+    impactAnalysis: "Analyse d'impact certifiée",
     topAchievements: "Succès majeurs",
     keyContributions: "Actions & Résultats",
     contributionLedger: "Historique vérifié",

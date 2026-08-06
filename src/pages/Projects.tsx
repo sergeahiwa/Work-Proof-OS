@@ -514,7 +514,7 @@ export default function Projects() {
                   ))}
                   {(!project.proofs || project.proofs.length === 0) && (
                     <div className="col-span-full p-6 border border-dashed border-surface-border rounded-xl text-center font-mono text-xs text-text-muted">
-                      Aucune preuve documentaire directement rattachée à cette mission.
+                      Aucune réalisation certifiée associée
                     </div>
                   )}
                 </div>

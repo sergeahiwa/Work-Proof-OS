@@ -74,7 +74,7 @@ export default function UserJourneyAudit({ extendedSignals }: UserJourneyAuditPr
         <div className="card p-6 bg-surface-section border border-surface-border space-y-4 h-fit">
           <div className="flex items-center gap-2 mb-2">
             <Search size={18} className="text-primary" />
-            <h3 className="text-sm font-black uppercase tracking-widest">Recherche Utilisateur</h3>
+            <h3 className="text-sm font-black uppercase tracking-widest">Recherche de Collaborateur</h3>
           </div>
           
           <div className="relative">
@@ -193,7 +193,7 @@ export default function UserJourneyAudit({ extendedSignals }: UserJourneyAuditPr
                 <div className="p-4 bg-surface-section border-b-2 border-surface-border flex justify-between items-center">
                   <div className="flex items-center gap-2">
                     <History size={18} className="text-primary" />
-                    <h3 className="text-sm font-black uppercase tracking-widest">Historique des Signaux (50 derniers ticks)</h3>
+                    <h3 className="text-sm font-black uppercase tracking-widest">Historique des Attestations (50 derniers enregistrements)</h3>
                   </div>
                 </div>
 

@@ -82,7 +82,7 @@ export const ProofPortabilityModal: React.FC<ProofPortabilityModalProps> = ({
                   Souveraineté & Portabilité
                 </span>
                 <h3 className="text-lg font-bold font-display text-text">
-                  Passeport de Preuves & Exports
+                  Passeport de Preuves & Portabilité
                 </h3>
               </div>
             </div>
@@ -277,7 +277,7 @@ export const ProofPortabilityModal: React.FC<ProofPortabilityModalProps> = ({
           <div className="p-4 bg-surface-section border-t border-surface-border flex items-center justify-between text-xs font-mono">
             <span className="text-text-muted flex items-center gap-1">
               <Lock size={12} />
-              Souveraineté totale de vos données
+              Vos preuves restent sous votre contrôle souverain
             </span>
             <button
               onClick={onClose}

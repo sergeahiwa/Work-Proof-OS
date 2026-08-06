@@ -145,7 +145,7 @@ export default function AdminDashboard() {
               <Gavel size={14} /> Console d'Arbitrage & Supervision
             </div>
             <h1 className="text-3xl md:text-4xl font-display font-extrabold text-text tracking-tight">
-              Console de Décision <span className="text-blue-500 font-mono">Oracle</span>
+              Console de Supervision <span className="text-blue-500 font-mono">& Confiance</span>
             </h1>
             <p className="text-text-muted text-sm md:text-base max-w-2xl">
               Observez les anomalies réseau, arbitrez les litiges de preuves et supervisez les états de vérité en temps réel.
@@ -187,7 +187,7 @@ export default function AdminDashboard() {
                   : 'text-text-muted hover:text-text'
               }`}
             >
-              Signaux de Risque
+              Signaux de Risque & Intégrité
             </button>
             <button 
               onClick={() => setActiveTab('matches')}
